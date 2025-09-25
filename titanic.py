@@ -23,7 +23,7 @@ df.drop(columns=['Cabin'], inplace=True)
 # Count for those who survived vs those who did not
 print("Survival Counts:\n", df['Survived'].value_counts())
 
-# visualuzations
+# visualuzations and graphs
 sns.countplot(x='Survived', data=df)
 plt.title('Survival Counts(0 = Died, 1 = Survived)')
 plt.show()
